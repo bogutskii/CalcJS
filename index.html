@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS1 HTML</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>git init
+<body>
+<h1>Calculator v0.0</h1>
+
+<hr>
+<input type="text" id="result" placeholder="0">
+<br>
+<ul id="calcStatusText">
+</ul>
+<hr>
+<div style = "width:450px">
+  <table style="width:100%">
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th><button class="btn btn-danger btn-lg btn-block " onclick="clearValue()">C</button></th>
+    </tr>
+    <tr>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="7" value="7" onclick="toInput('7')">7</button></td>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="8" value="8" onclick="toInput('8')">8</button></td>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="9" value="9" onclick="toInput('9')">9</button></td>
+      <td><button class="btn btn-primary btn-lg btn-block" onclick="divide()">/</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="4" value="4" onclick="toInput('4')">4</button></td>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="5" value="5" onclick="toInput('5')">5</button></td>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="6" value="6" onclick="toInput('6')">6</button></td>
+      <td><button class="btn btn-primary btn-lg btn-block" onclick="multiply()">*</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="1" value="1" onclick="toInput('1')">1</button></td>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="2" value="1" onclick="toInput('2')">2</button></td>
+      <td><button class="btn btn-secondary btn-lg btn-block" id="3" value="3" onclick="toInput('3')">3</button></td>
+      <td><button class="btn btn-primary btn-lg btn-block" onclick="subtract()">-</button></td>
+    </tr>
+    <tr>
+      <th><button class="btn btn-secondary btn-lg btn-block" id="0" value="0" onclick="toInput('0')">0</button></th>
+      <th><button class="btn btn-secondary btn-lg btn-block" id="." value="." onclick="toInput('.')">.</button></th>
+      <th><button class="btn btn-warning btn-lg btn-block" onclick="getResult()">=</button></th>
+      <th><button class="btn btn-primary btn-lg btn-block" onclick="addNum()">+</button></th>
+    </tr>
+  </table>
+</div>
+
+<script type class="application/javascript" src="app.js"></script>
+</body>
+</html>

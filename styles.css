@@ -1,0 +1,25 @@
+
+body {
+    background-color: #d33e22;
+    padding: 40px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+input {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 46pt;
+}
+
+button {
+    width: 60px;
+    height: 80px;
+}
+
+.button {
+    background: #86f0ff;
+    font-size: 30px;
+}
