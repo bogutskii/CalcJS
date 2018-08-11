@@ -24,7 +24,7 @@ function operand(operand) {
 }
 
 function clearValue(firstValueByDefault = '') {
-  firstValue = firstValueByDefault;
+  firstValue = '';
   secondValue = '';
   operandValue = '';
 }
@@ -48,27 +48,3 @@ function getResult() {
   write(result);
   clearValue(result);
 }
-//
-// function clearValue() {
-//   write("0");
-//   firstValue = secondValue = '';
-//   operation = "";
-// }
-//   result = +firstValue * +secondValue;
-// }
-// if (operandValue === '/') {
-// if (operandValue === '*') {
-// }
-//   result = +firstValue / +secondValue;
-//
-// function addToList(Text) {
-// 	let element = document.getElementById("historyLog");
-// 	element.innerHTML += Text;
-// }
-
-// 	let element = document.getElementById("historyLog");
-// 	element.innerHTML = "";
-// }
-
-
-module.exports = {};
