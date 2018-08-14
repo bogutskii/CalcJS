@@ -23,15 +23,19 @@ function operand(operand) {
   operandValue = operand;
 }
 
-function clearValue(firstValueByDefault = '') {
-  firstValue = '';
+function postOperand() {
   secondValue = '';
+  firstValue = '';
   operandValue = '';
 }
 
+function clearValue(firstValueBydefault = '') {
+  write('');
+  postOperand();
+}
 
 function getResult() {
-  let result = 0;
+  let result = '';
 
   if (operandValue === '+') {
     result = +firstValue + +secondValue;
@@ -46,5 +50,15 @@ function getResult() {
     result = +firstValue / +secondValue;
   }
   write(result);
-  clearValue(result);
+  postOperand();
 }
+
+function dotValue() {
+  if (document.getElementById('display').value.include('.')) {
+    document.getElementById('display').value
+  }
+  else {
+    document.getElementById('display').value +'.';
+  }
+
+    }
