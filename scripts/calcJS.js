@@ -2,8 +2,6 @@ let firstValue = '';
 let secondValue = '';
 let operandValue = '';
 
-// let skipPrevRead = false;
-
 function toInput(n) {
   if (operandValue) {
     secondValue += n;
@@ -52,13 +50,3 @@ function getResult() {
   write(result);
   postOperand();
 }
-
-function dotValue() {
-  if (document.getElementById('display').value.include('.')) {
-    document.getElementById('display').value
-  }
-  else {
-    document.getElementById('display').value +'.';
-  }
-
-    }

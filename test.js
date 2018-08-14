@@ -1,4 +1,4 @@
-const { sum } = require('./app.js');
+const { sum } = require('./scripts/calcJS.js');
 
 function sumMY(a, b) {
   return a + b;
