@@ -1,25 +1,25 @@
 
-body {
-    background-color: #d33e22;
-    padding: 40px;
-    text-align: center;
-    font-size: 16pt;
-}
+/*body {*/
+    /*background-color: #d33e22;*/
+    /*padding: 50px;*/
+    /*text-align: center;*/
+    /*font-size: 16pt;*/
+/*}*/
 
-input {
-    font-size: 30px;
-}
+/*input {*/
+    /*font-size: 50px;*/
+/*}*/
 
-h1 {
-    font-size: 46pt;
-}
+/*h1 {*/
+    /*font-size: 46pt;*/
+/*}*/
 
-button {
-    width: 60px;
-    height: 80px;
-}
+/*!*button {*!*/
+    /*!*width: 60px;*!*/
+    /*!*height: 80px;*!*/
+/*!*}*!*/
 
-.button {
-    background: #86f0ff;
-    font-size: 30px;
-}
+/*!*.button {*!*/
+    /*!*background: #86f0ff;*!*/
+    /*!*font-size: 30px;*!*/
+/*!*}*!*/
